@@ -186,7 +186,7 @@
             {
                 id: 17,
                 name: "Fitted Sofa Slipcover",
-                category: "sofa-covers",
+                category: "sofa-materials",
                 price: 79.99,
                 image: "https://plus.unsplash.com/premium_photo-1674567529895-c89b6bb1b9e6?q=80&w=2042&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 description: "Elastic stretch cover that fits most sofa sizes. Easy to install and machine washable.",
@@ -197,7 +197,7 @@
             {
                 id: 18,
                 name: "Quilted Sofa Protector",
-                category: "sofa-covers",
+                category: "sofa-materials",
                 price: 69.99,
                 image: "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=600&h=800&fit=crop",
                 description: "Reversible quilted protector with anti-slip backing. Pet and kid-friendly.",
@@ -208,7 +208,7 @@
             {
                 id: 19,
                 name: "Velvet Sofa Throw",
-                category: "sofa-covers",
+                category: "sofa-materials",
                 price: 89.99,
                 image: "https://images.unsplash.com/photo-1550226891-ef816aed4a98?w=600&h=800&fit=crop",
                 description: "Luxurious velvet throw blanket that doubles as a stylish sofa cover.",
@@ -219,7 +219,7 @@
             {
                 id: 20,
                 name: "Waterproof Sofa Cover",
-                category: "sofa-covers",
+                category: "sofa-materials",
                 price: 59.99,
                 image: "https://images.unsplash.com/photo-1567016432779-094069958ea5?w=600&h=800&fit=crop",
                 description: "100% waterproof cover that protects against spills and stains.",
@@ -289,7 +289,7 @@
                 name: "Rosepetal Blankets",
                 category: "blankets",
                 price: 39.99,
-                image: "img/rp-blanket.avif",
+                image: "img/rpb.avif",
                 description: "Luxurious rosepetal blanket made from ultra-soft fabric, warm, lightweight, cozy, washable, perfect for elegant comfort daily.",
                 rating: 4.8,
                 reviews: 267,
@@ -353,13 +353,79 @@
             {
                 id: 31,
                 name: "Dohars",
-                category: "dohar",
+                category: "blankets",
                 price: 39.99,
                 image: "img/dh.avif",
                 description: "Soft breathable dohar made from premium fabric, lightweight comfort, cozy layers, washable, perfect for all-season sleep.",
                 rating: 4.8,
                 reviews: 267,
                 colors: ["Single","Double"]
+            },
+            {
+                id: 32,
+                name: "Cottonwaste",
+                category: "cottonwaste",
+                price: 39.99,
+                image: "img/c.webp",
+                description: "Soft, breathable white cotton fabric offering comfort, durability, elegance, and everyday versatile style.",
+                rating: 4.8,
+                reviews: 267,
+                colors: ["100% Pure Cotton","Refined Semar"]
+            },
+            {
+                id: 33,
+                name: "Mattress",
+                category: "cottonwaste",
+                price: 39.99,
+                image: "img/cm.avif",
+                description: "Soft white cotton mattress provides breathable comfort, durable support, and peaceful restful sleep daily.",
+                rating: 4.8,
+                reviews: 267,
+                colors: ["100% Pure Cotton"]
+            },
+            {
+                id: 33,
+                name: "Mattress Protector",
+                category: "cottonwaste",
+                price: 39.99,
+                image: "img/mp.avif",
+                description: "Durable mattress protector offers waterproof safety, softness, hygiene, and long-lasting sleeping comfort.",
+                rating: 4.8,
+                reviews: 267,
+                colors: ["Single","Double"]
+            },
+            {
+                id: 34,
+                name: "Pillow",
+                category: "cottonwaste",
+                price: 39.99,
+                image: "img/cnp.avif",
+                description: "Soft white cotton pillow offers breathable comfort, gentle support, and relaxing sleep every night.",
+                rating: 4.8,
+                reviews: 267,
+                colors: ["100% Pure Cotton","Refined Semar"]
+            },
+            {
+                id: 35,
+                name: "Bloster",
+                category: "cottonwaste",
+                price: 39.99,
+                image: "img/cb.avif",
+                description: "Soft white cotton bolster offers cozy support, breathable comfort, and elegant everyday relaxation.",
+                rating: 4.8,
+                reviews: 267,
+                colors: ["100% Pure Cotton","Refined Semar"]
+            },
+            {
+                id: 36,
+                name: "Polyster Staple Fibre",
+                category: "polyster staple fibre",
+                price: 39.99,
+                image: "img/psf.avif",
+                description: "Premium polyester staple fibre offers softness, durability, resilience, and long-lasting comfort for filling.",
+                rating: 4.8,
+                reviews: 267,
+                colors: ["Virgin Fibre","Recycled Fibre"]
             }
         ];
 
