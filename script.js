@@ -360,17 +360,6 @@
                 rating: 4.8,
                 reviews: 267,
                 colors: ["Single","Double"]
-            },
-            {
-                id: 32,
-                name: "Top Sheets ",
-                category: "dohar",
-                price: 39.99,
-                image: "img/tps.avif",
-                description: "Soft breathable dohar made from premium fabric, lightweight comfort, cozy layers, washable, perfect for all-season sleep.",
-                rating: 4.8,
-                reviews: 267,
-                colors: ["Single","Double"]
             }
         ];
 
