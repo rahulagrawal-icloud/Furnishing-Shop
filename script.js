@@ -60,7 +60,7 @@
             // Bedsheets
             {
                 id: 6,
-                name: "Premium Cotton Sheet",
+                name: "Premium Cotton Bedsheet",
                 category: "bedsheets & covers",
                 price: 129.99,
                 image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&h=800&fit=crop",
