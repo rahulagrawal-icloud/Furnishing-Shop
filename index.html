@@ -50,6 +50,7 @@
                 
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#products" class="text-gray-700 hover:text-brand-600 font-medium transition">Collections</a>
+                    <a href="#offers" class="text-gray-700 hover:text-brand-600 font-medium transition"><strong>Offers</strong></a>
                     <a href="#featured" class="text-gray-700 hover:text-brand-600 font-medium transition">Featured</a>
                     <a href="#wholesale" class="text-gray-700 hover:text-brand-600 font-medium transition">Wholesale</a>
                     <a href="#about" class="text-gray-700 hover:text-brand-600 font-medium transition">Our Story</a>
@@ -76,6 +77,7 @@
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
             <div class="px-4 py-2 space-y-1">
                 <a href="#products" class="block px-3 py-2 text-gray-700 hover:bg-brand-50 rounded">Collections</a>
+                <a href="#offers" class="block px-3 py-2 text-gray-700 hover:bg-brand-50 rounded">Offers</a>
                 <a href="#featured" class="block px-3 py-2 text-gray-700 hover:bg-brand-50 rounded">Featured</a>
                 <a href="#wholesale" class="block px-3 py-2 text-gray-700 hover:bg-brand-50 rounded">Wholesale</a>
                 <a href="#about" class="block px-3 py-2 text-gray-700 hover:bg-brand-50 rounded">Our Story</a>
@@ -208,6 +210,106 @@
             </div>
         </div>
     </section>
+    
+    
+    
+    <!-- Offers Section -->
+    <section id="offers" class="scroll-mt-44 py-20 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="rounded-[2rem] bg-gradient-to-br from-brand-800 via-brand-700 to-brand-600 text-white p-8 sm:p-10 lg:p-12 shadow-2xl relative offer-glow">
+                <div class="absolute inset-0 offer-pattern opacity-30 pointer-events-none"></div>
+                <div class="relative">
+                    <div class="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+                        <div class="max-w-3xl">
+                            <span class="inline-flex items-center rounded-full bg-white/15 px-4 py-1.5 text-sm font-semibold tracking-wide text-brand-50">
+                                THIS WEEK'S STORE HIGHLIGHTS
+                            </span>
+                            <h2 class="mt-6 font-serif text-4xl sm:text-5xl font-bold leading-tight">
+                                Fresh offers for homes that need comfort, color, and smart value.
+                            </h2>
+                            <p class="mt-5 text-lg text-brand-50/90 leading-relaxed max-w-2xl">
+                                Explore current savings across furnishing essentials, bundled picks, and room-refresh favorites. For the latest in-store pricing, call us directly and we will guide you to the best available deal.
+                            </p>
+                        </div>
+                        <div class="rounded-3xl bg-white/10 border border-white/15 p-6 backdrop-blur-sm max-w-sm">
+                            <p class="text-sm uppercase tracking-[0.25em] text-brand-50/70">Quick Offer Help</p>
+                            <p class="mt-3 text-3xl font-bold">Call or visit for live deals</p>
+                            <p class="mt-3 text-sm leading-relaxed text-brand-50/80">
+                                Offer availability may vary by design, size, and stock. We will help you compare options before you buy.
+                            </p>
+                            <div class="mt-5 flex flex-wrap gap-3">
+                                <a href="tel:+918103080724" class="inline-flex items-center justify-center rounded-lg bg-white px-5 py-3 font-semibold text-brand-800 transition hover:bg-brand-50">
+                                    Call Now
+                                </a>
+                                <a href="#contact" class="inline-flex items-center justify-center rounded-lg border border-white/25 px-5 py-3 font-semibold text-white transition hover:bg-white/10">
+                                    Ask a Question
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+                        <article class="offer-card rounded-3xl bg-white text-gray-900 p-6 shadow-xl">
+                            <div class="flex items-center justify-between gap-3">
+                                <span class="inline-flex rounded-full bg-brand-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand-700">Bedsheet Offer</span>
+                                <span class="text-sm font-semibold text-brand-700">Best Seller</span>
+                            </div>
+                            <h3 class="mt-5 font-serif text-2xl font-bold">Get 5 - 10% Off on Bedsheets</h3>
+                            <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                                Upgrade your bedroom with premium bedsheets at unbeatable prices—shop now for comfort, style, and exclusive limited-time offers today!
+                            </p>
+                            <button onclick="window.open('https://www.instagram.com/laxmiruibhandarbsp?igsh=NjdhOG1pczl5a3dp', '_blank')" class="mt-6 inline-flex items-center text-sm font-semibold text-brand-700 hover:text-brand-800">
+                                View Offer 
+                            </button>
+                        </article>
+
+                        <!-- <article class="offer-card rounded-3xl bg-white text-gray-900 p-6 shadow-xl">
+                            <div class="flex items-center justify-between gap-3">
+                                <span class="inline-flex rounded-full bg-brand-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand-700">Combo Deal</span>
+                                <span class="text-sm font-semibold text-brand-700">Bedroom Set</span>
+                            </div>
+                            <h3 class="mt-5 font-serif text-2xl font-bold">Bedsheet + cover combos</h3>
+                            <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                                Pair bedsheets with cushion, pillow, or bolster covers for a coordinated room update with better overall value.
+                            </p>
+                            <button onclick="filterProducts('bedsheets & covers')" class="mt-6 inline-flex items-center text-sm font-semibold text-brand-700 hover:text-brand-800">
+                                View bedding
+                            </button>
+                        </article>
+
+                        <article class="offer-card rounded-3xl bg-white text-gray-900 p-6 shadow-xl">
+                            <div class="flex items-center justify-between gap-3">
+                                <span class="inline-flex rounded-full bg-brand-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand-700">Season Pick</span>
+                                <span class="text-sm font-semibold text-brand-700">Comfort Range</span>
+                            </div>
+                            <h3 class="mt-5 font-serif text-2xl font-bold">Blankets and comforters</h3>
+                            <p class="mt-3 text-sm leading-relaxed text-gray-600">
+                                Check current store picks for soft blankets, rosepetal designs, quilts, and comforters in popular sizes.
+                            </p>
+                            <button onclick="filterProducts('blankets')" class="mt-6 inline-flex items-center text-sm font-semibold text-brand-700 hover:text-brand-800">
+                                View warm layers
+                            </button>
+                        </article>
+
+                        <article class="offer-card rounded-3xl bg-white/10 border border-white/15 p-6 backdrop-blur-sm">
+                            <div class="flex items-center justify-between gap-3">
+                                <span class="inline-flex rounded-full bg-white/15 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand-50">Bulk Benefit</span>
+                                <span class="text-sm font-semibold text-brand-50">Project Orders</span>
+                            </div>
+                            <h3 class="mt-5 font-serif text-2xl font-bold text-white">Wholesale savings</h3>
+                            <p class="mt-3 text-sm leading-relaxed text-brand-50/80">
+                                Buying for multiple rooms, resale, or furnishing projects? Our wholesale section covers the fastest way to get volume pricing support.
+                            </p>
+                            <a href="#wholesale" class="mt-6 inline-flex items-center text-sm font-semibold text-white hover:text-brand-100">
+                                Explore wholesale
+                            </a>
+                        </article> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Featured/Why Choose Us -->
     <section id="featured" class="py-20 bg-white">
@@ -482,6 +584,7 @@
                     <h4 class="font-semibold text-lg mb-4">Quick Links</h4>
                     <ul class="space-y-2 text-gray-400">
                         <li><a href="#products" class="hover:text-white transition">All Products</a></li>
+                        <li><a href="#offers" class="hover:text-white transition">Offers</a></li>
                         <li><a href="#featured" class="hover:text-white transition">Featured</a></li>
                         <li><a href="#wholesale" class="hover:text-white transition">Wholesale</a></li>
                         <li><a href="#about" class="hover:text-white transition">About Us</a></li>
